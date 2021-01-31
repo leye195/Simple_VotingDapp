@@ -1,0 +1,39 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+li,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+.vote-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80vw;
+  padding: 1.2rem;
+  margin: 0 auto;
+  border: 1px solid #e3e3e3;
+}
+
+.vote-container table {
+  width: 100%;
+}
+
+.vote-container tbody tr {
+  text-align: center;
+}
+
+.form-container {
+  margin-top: 1.5rem;
+}

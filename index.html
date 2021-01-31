@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <h1>Simple Voting Dapp</h1>
+    <div class="vote-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Candidate</th>
+                    <th>Votes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dan</td>
+                    <td id="candidate-1">0</td>
+                </tr>
+                <tr>
+                    <td>Lee</td>
+                    <td id="candidate-2">0</td>
+                </tr>
+                <tr>
+                    <td>Ben</td>
+                    <td id="candidate-3">0</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="form-container">
+            <input  type="text" id='candidate'>
+            <button class="vote_button" type="button">Vote</button>
+        </div>
+    </div>
+    <script src="node_modules/web3/dist/web3.min.js"></script>
+  </body>
+</html>
